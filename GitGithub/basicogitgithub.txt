@@ -1,0 +1,54 @@
+ sudo
+    2  sudo apt
+    3  sudo apt update 
+    4  sudo apt upgrade 
+    5  sudo apt upgrade --fix-missing
+    6  SUDO APT AUTOREMOVE
+    7  sudo apt autoremove
+    8  sudo apt autoclean
+    9  sudo reboot
+   10  sudo apt install curl
+   11  sudo curl
+   12  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+   13  sudo apt install curl
+   14  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg]
+   15  sudo apt install curl
+   16  sudo curl -fsSLo /usr/share/keyrings/brave-browser-archive-keyring.gpg https://brave-browser-apt-release.s3.brave.com/brave-browser-archive-keyring.gpg
+   17  echo "deb [signed-by=/usr/share/keyrings/brave-browser-archive-keyring.gpg] https://brave-browser-apt-release.s3.brave.com/ stable main"|sudo tee /etc/apt/sources.list.d/brave-browser-release.list
+   18  sudo apt update
+   19  sudo apt install brave-browser
+   20  sudo apt install opera
+   21  sudo apt install git vim
+   22  sudo install colorpaint
+   23  sudo intall KolourPaint
+   24  sudo intall kolourpaint
+   25  sudo apt install kolourpaint
+   26  sudo apt intall notepadqq vlc audacoty kazam
+   27  sudo apt intall notepadqq
+   28  sudo apt install notepadQQ
+   29  sudo apt install audacity vlc kazam
+   30  sudo apt intall kdenlive
+   31  sudo apt install notepadqq
+   32  sudo apt install linux-oem-24.04b
+   33  sudo reboot
+   34  sudo apt update
+   35  sudo apt install
+   36  sudo apt update
+   37  git
+   38  git config
+   39  git config --globol user.name "Dantas" 
+   40  git config --global user.name "Dantas"
+   41  git congig --global user.email
+   42  git config --global user.email 
+   43  git config
+   44  git config --list
+   45  exit
+   46  git clone
+   47  git clone senac-tat
+   48  git clone https://github.com/phdantass/senac-tat~
+   49  git clone https://github.com/phdantass/senac-tat
+   50   q1
+   51  .
+   52  git conifg
+   53  git config
+   54  history
