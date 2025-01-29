@@ -1,0 +1,14 @@
+git status: Mostra o estado atual dos arquivos no repositório (quais estão modificados, adicionados ou não rastreados).
+
+git add .: Adiciona todos os arquivos modificados ou novos ao "staging area", preparando-os para o commit.
+
+  porque o ponto?
+  O ponto (.) em git add . significa "adicionar todos os arquivos modificados e novos na pasta atual e suas subpastas". É uma forma de adicionar tudo de uma vez para o commit.
+
+git commit -m "mensagem": Cria um commit com as alterações e registra uma mensagem explicando o que foi feito.
+
+git pull: Baixa e integra as mudanças do repositório remoto ao seu repositório local.
+
+git push: Envia as alterações locais para o repositório remoto, compartilhando seu trabalho com os outros.
+
+  
