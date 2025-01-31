@@ -1,4 +1,4 @@
-git status: Mostra o estado atual dos arquivos no repositório (quais estão modificados, adicionados ou não rastreados).
+ git status: Mostra o estado atual dos arquivos no repositório (quais estão modificados, adicionados ou não rastreados).
 
 git add .: Adiciona todos os arquivos modificados ou novos ao "staging area", preparando-os para o commit.
 
