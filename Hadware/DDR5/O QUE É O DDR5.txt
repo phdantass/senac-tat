@@ -1,0 +1,21 @@
+O QUE É O DDR5
+
+O DDR5 (Double Data Rate 5) é a quinta geração da memória RAM DDR, projetada para oferecer maior desempenho, 
+maior capacidade e eficiência energética em comparação com as versões anteriores, como o DDR4. Ele apresenta
+ uma largura de banda mais alta e uma velocidade de transferência de dados significativamente superior, o que 
+melhora o desempenho de computadores, servidores e dispositivos que exigem maior poder de processamento, como 
+estações de trabalho e sistemas de jogos avançados.
+
+Além disso, o DDR5 permite suportar módulos de memória de maior capacidade (até 128 GB por módulo, dependendo da configuração), o que 
+é útil para tarefas pesadas e multitarefa. Ele também introduz novos recursos, como a capacidade de ajustar a tensão 
+automaticamente, o que aumenta a eficiência energética. Em resumo, o DDR5 é uma evolução que visa melhorar a performance 
+geral dos sistemas modernos.
+
+UTILIZAÇÃO:
+
+O DDR5 é utilizado em sistemas com hardware compatível, como placas-mãe e processadores que suportam essa tecnologia. 
+Para utilizá-lo, é necessário ter uma placa-mãe com suporte ao DDR5 (geralmente com chipsets modernos da Intel ou AMD), 
+um processador compatível (como as séries Alder Lake da Intel ou Ryzen 7000 da AMD), e instalar os 
+módulos de memória nas ranhuras corretas da placa-mãe. Em algumas placas, a configuração pode ser feita manualmente 
+na BIOS/UEFI, embora muitas placas ajustem automaticamente os parâmetros. Após a instalação, é possível 
+verificar o desempenho com ferramentas como CPU-Z ou MemTest.

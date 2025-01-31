@@ -1,0 +1,55 @@
+1- Montar um PC AMD com Placa de vídeo NVIDIA com R$ 5.500,00 a R$ 6000,00
+
+AMD Ryzen 5 5600X R$ 1.099,90
+Placa-Mãe Gigabyte B550M Aorus Elite R$ 879,00
+NVIDIA GeForce RTX 4060 EAGLE  R$ 2.399,90
+SSD Sandisk Plus - 1TB, NVMe, M.2 R$399,89
+Kit de Memórias HyperX Fury (2 de 8GB) DIMM DDR4 3200Mhz  R$339,90
+Water Cooler Gamer Rise Mode, 240mm R$ 219,99
+Gabinete Gamer Montech X3 Glass, Mid Tower, Black, ATX, Com 6 Fans   R$ 399,90
+Fonte Mancer Thunder 600W | Certificação 80 Plus Bronze  R$352,90
+
+TOTAL: R$6085,00
+
+2- Montar um PC AMD com Placa de vídeo AMD com R$ 5.500,00 a R$ 6000,00
+
+AMD Ryzen 5 5600X R$ 1.099,90
+Placa-Mãe Gigabyte B550M Aorus Elite R$ 879,00
+Placa de Vídeo RX 6750XT Gaming XFX  R$ 2.399,90
+SSD Sandisk Plus - 1TB, NVMe, M.2 R$399,89
+Kit de Memórias HyperX Fury (2 de 8GB) DIMM DDR4 3200Mhz  R$339,90
+Water Cooler Gamer Rise Mode, 240mm R$ 219,99
+Gabinete Gamer Montech X3 Glass, Mid Tower, Black, ATX, Com 6 Fans   R$ 399,90
+Fonte Mancer Thunder 600W | Certificação 80 Plus Bronze  R$352,90
+
+TOTAL: R$5925,00
+
+3- Montar um PC Intel com Placa de vídeo NVIDIA com R$ 5.500,00 a R$ 6000,00
+
+Processador Intel Core i5 12400F R$ 829,90
+Placa Mãe Asus B760M-AYW WIFI, Chipset B760, Intel LGA 1700 K R$ 939,90
+NVIDIA GeForce RTX 4060 EAGLE  R$ 2.399,90
+SSD Sandisk Plus - 1TB, NVMe, M.2 R$399,89
+Kit de Memórias HyperX Fury (2 de 8GB) DIMM DDR4 3200Mhz  R$339,90
+Water Cooler Gamer Rise Mode, 240mm R$ 219,99
+Gabinete Gamer Montech X3 Glass, Mid Tower, Black, ATX, Com 6 Fans   R$ 399,90
+Fonte Mancer Thunder 600W | Certificação 80 Plus Bronze  R$352,90
+
+TOTAL: R$5875,00
+
+4- Montar um PC Intel com Placa de vídeo AMD com R$ 5.500,00 a R$ 6000,00
+
+Processador Intel Core i5 12400F R$ 829,90
+Placa Mãe Asus B760M-AYW WIFI, Chipset B760, Intel LGA 1700 K R$ 939,90
+Placa de Vídeo RX 6750XT Gaming XFX  R$ 2.399,90
+SSD Sandisk Plus - 1TB, NVMe, M.2 R$399,89
+Kit de Memórias HyperX Fury (2 de 8GB) DIMM DDR4 3200Mhz  R$339,90
+Water Cooler Gamer Rise Mode, 240mm R$ 219,99
+Gabinete Gamer Montech X3 Glass, Mid Tower, Black, ATX, Com 6 Fans   R$ 399,90
+Fonte Mancer Thunder 600W | Certificação 80 Plus Bronze  R$352,90
+
+TOTAL: R$5875,00
+
+
+
+

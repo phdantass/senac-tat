@@ -1,0 +1,51 @@
+Atividade 23/01/2025
+
+1-	Montar um PC AMD com Placa de vídeo NVIDIA com R$ 5.500,00 a R$ 6000,00
+2-	Montar um PC AMD com Placa de vídeo AMD com R$ 5.500,00 a R$ 6000,00
+3-	Montar um PC Intel com Placa de vídeo NVIDIA com R$ 5.500,00 a R$ 6000,00
+4-	Montar um PC Intel com Placa de vídeo AMD com R$ 5.500,00 a R$ 6000,00
+
+
+Processador AMD Ryzen 5 5500 3.6GHz (4.2GHz Turbo) 6-cores 12-treads Cooler Wraiht,AM4,SEM VIDEO INTEGRADO,100-100000457BOX - 764,59
+Placa De Vídeo Duex AMD Radeon RX 550, 2GB, GDDR5, 128 Bit, RX550-2GD5 - 399,90
+Placa Mãe Asus TUF Gaming B550M-Plus, Chipset B550, AMD AM4, mATX, DDR4, 90MB14A0-C1BAY0 - 919,90
+Gabinete Gamer SuperFrame Dominator PRO, Mid Tower, Vidro Temperado, E-ATX, Preto, Sem Fonte, 4 Fans, SF-CS-DPMAB4F - 635,18
+Memória DDR4 SuperFrame RGB, 8GB, 3200MHz, Gray - 156,90 
+SSD Adata Legend 710, 512GB, M.2 2280 NVMe Leitura 2.400MBs, Gravação 1.600MBs, ALEG-710-512GCS - 271,90
+Fonte Be Quiet System Power 10 U, 650W, 80 Plus Bronze, PFC Ativo, Black, BN688 - 549,90
+Water Cooler Corsair iCUE LINK H100i White, 240mm, RGB, Intel-AMD, Branco, CW-9061005-WW - 739,90
+
+TOTAL:4.438,17
+--------------------------------------------------------------------------------------------------------------------------------------
+Processador AMD Ryzen 5 5500 3.6GHz (4.2GHz Turbo) 6-cores 12-treads Cooler Wraiht,AM4,SEM VIDEO INTEGRADO,100-100000457BOX - 764,59
+Placa de vídeo MSI NVIDIA GeForce GTX 1650 D6 VENTUS XS OCV3, 4GB GDDR6, 128Bit, HDMI/DP - 839,90
+Placa Mãe Asus TUF Gaming B550M-Plus, Chipset B550, AMD AM4, mATX, DDR4, 90MB14A0-C1BAY0 - 919,90
+Gabinete Gamer SuperFrame Dominator PRO, Mid Tower, Vidro Temperado, E-ATX, Preto, Sem Fonte, 4 Fans, SF-CS-DPMAB4F - 635,18
+Memória DDR4 SuperFrame RGB, 8GB, 3200MHz, Gray - 156,90 
+SSD Adata Legend 710, 512GB, M.2 2280 NVMe Leitura 2.400MBs, Gravação 1.600MBs, ALEG-710-512GCS - 271,90
+Fonte Be Quiet System Power 10 U, 650W, 80 Plus Bronze, PFC Ativo, Black, BN688 - 549,90
+Water Cooler Corsair iCUE LINK H100i White, 240mm, RGB, Intel-AMD, Branco, CW-9061005-WW - 739,90
+
+TOTAL:4.878,17
+--------------------------------------------------------------------------------------------------------------------------------------
+Processador Intel Core i5 12400F, 2.5GHz (4.4GHz Turbo), 12ª Geração, 6-Cores 12-Threads, LGA 1700, Com Cooler, BX8071512400F - 829,90
+Placa de vídeo MSI NVIDIA GeForce GTX 1650 D6 VENTUS XS OCV3, 4GB GDDR6, 128Bit, HDMI/DP - 839,90
+Placa Mãe Asus Prime H610M-E D4, Chipset H610, Intel LGA 1700, mATX, DDR4, 90MB19N0-C1BAY0 - 629,90
+Gabinete Gamer SuperFrame Dominator PRO, Mid Tower, Vidro Temperado, E-ATX, Preto, Sem Fonte, 4 Fans, SF-CS-DPMAB4F - 635,18
+Memória DDR4 SuperFrame RGB, 8GB, 3200MHz, Gray - 156,90 
+SSD Adata Legend 710, 512GB, M.2 2280 NVMe Leitura 2.400MBs, Gravação 1.600MBs, ALEG-710-512GCS - 271,90
+Fonte Be Quiet System Power 10 U, 650W, 80 Plus Bronze, PFC Ativo, Black, BN688 - 549,90
+Water Cooler Corsair iCUE LINK H100i White, 240mm, RGB, Intel-AMD, Branco, CW-9061005-WW - 739,90
+
+TOTAL:4.653,48
+--------------------------------------------------------------------------------------------------------------------------------------
+Processador Intel Core i5 12400F, 2.5GHz (4.4GHz Turbo), 12ª Geração, 6-Cores 12-Threads, LGA 1700, Com Cooler, BX8071512400F - 829,90
+Placa De Vídeo Duex AMD Radeon RX 550, 2GB, GDDR5, 128 Bit, RX550-2GD5 - 399,90
+Placa Mãe Asus Prime H610M-E D4, Chipset H610, Intel LGA 1700, mATX, DDR4, 90MB19N0-C1BAY0 - 629,90
+Gabinete Gamer SuperFrame Dominator PRO, Mid Tower, Vidro Temperado, E-ATX, Preto, Sem Fonte, 4 Fans, SF-CS-DPMAB4F - 635,18
+Memória DDR4 SuperFrame RGB, 8GB, 3200MHz, Gray - 156,90 
+SSD Adata Legend 710, 512GB, M.2 2280 NVMe Leitura 2.400MBs, Gravação 1.600MBs, ALEG-710-512GCS - 271,90
+Fonte Be Quiet System Power 10 U, 650W, 80 Plus Bronze, PFC Ativo, Black, BN688 - 549,90
+Water Cooler Corsair iCUE LINK H100i White, 240mm, RGB, Intel-AMD, Branco, CW-9061005-WW - 739,90
+
+TOTAL:4.213,48

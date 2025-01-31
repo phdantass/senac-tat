@@ -1,0 +1,21 @@
+ Velocidade e Desempenho
+Velocidades mais altas: O DDR5 começa com velocidades de 4800 MHz, enquanto o DDR4 geralmente opera entre 2133 MHz e 3200 MHz.
+ Espera-se que as futuras gerações de DDR5 atinjam velocidades de até 8400 MHz ou mais.
+Maior largura de banda: O DDR5 oferece maior largura de banda,
+ permitindo maior transferência de dados entre a memória e o processador. Isso é ideal para jogos exigentes, edição de vídeo,
+ renderização 3D e outras tarefas intensivas.
+
+
+
+ Compatibilidade
+Placas-mãe e CPUs compatíveis: Para usar DDR5, você precisa de uma placa-mãe e um processador compatíveis.
+ A arquitetura do DDR5 exige novos chipsets,
+ como os chipsets da série Intel 600 (com processadores Alder Lake) ou AMD Ryzen 7000 (baseados na arquitetura Zen 4).
+ Então, se você está planejando fazer um upgrade, é importante verificar a compatibilidade do seu sistema.
+
+
+Capacidade de Memória
+Maior capacidade por módulo: O DDR5 permite módulos com capacidades de até 64 GB por stick,
+ o que é uma grande melhoria em relação ao DDR4,
+ que normalmente atinge 16 GB ou 32 GB por stick.
+ Isso é excelente para profissionais que trabalham com grandes volumes de dados ou que utilizam máquinas virtuais.
