@@ -1,0 +1,2 @@
+!entrar no switch por qualquer pc da rede
+ssh -l senac (nome de usuario) 192.168.1.250

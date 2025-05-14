@@ -1,0 +1,16 @@
+enable
+    configure terminal 
+        !habilitar o serviço de dns
+        ip domain-lookup
+
+        !configurar o domínio
+        ip domain-name (domínio).br
+
+        !configurar o servidor de dns
+        ip name-server 192.168.1.1
+
+        !configurar hosts locais 
+        ip host google 192.168.1.1
+
+        end
+write 

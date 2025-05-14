@@ -1,0 +1,31 @@
+!configuração da SVI
+enable
+    configure terminal
+        !Gateway padrão
+        ip default-gateway 192.168.1.254 
+        
+        !configuração da interface virtual
+        interface VLAN 1
+            !configurar descrição
+            description Interface de SVI
+
+            !configurar o endereço ipv4
+            ip address 192.168.1.250 255.255.255.0 
+
+            !Iniciar a interface
+            no shutdown 
+
+            !sair de tudo
+            end
+    !salvar tudo
+    write
+
+    show running-config
+
+    show running-config | section include interface Vlan1
+
+    show ip interface brief
+
+    show VLAN brief
+
+    ping 192.168.1.250

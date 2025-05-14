@@ -1,0 +1,39 @@
+!configurar ssh
+enable
+    configure terminal
+        !configurar o domínio
+        ip domain-name senac.br 
+
+        !habilitar o ssh
+        crypto key generate rsa general-keys modulus 1024
+
+        !habilitar a versão 2
+        ip ssh version 2
+
+        !tempo de conexão
+        ip ssh time-out 60
+
+        !configurar numero de sessão
+        ip ssh authentication-retries 2
+
+        !sair de tudo
+        end
+!salvar tudo
+write
+
+====================================================
+
+!visualizar as configurações
+show running-config    
+show running-config | section include line vty
+show running-config | include ip ssh 
+show running-config | section include interface Vlan1
+show ip ssh 
+show crypto key mypubkey rsa
+show ssh 
+
+=====================================================
+
+!se tudo estiver certo (no terminal)
+ping 192.168.1.250 (ip do switch)
+ssh -l senac (nome de usuario) 192.168.1.250
