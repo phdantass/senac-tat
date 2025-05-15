@@ -1,0 +1,44 @@
+!como configurar um router
+
+
+enable 
+    conf t
+
+        hostname (nome do dispositivo)
+
+        interface f0/0 {porta da lan}
+
+            no shutdown
+            
+            ip address 192.168.0.1 {ip de "entrada"} 255.255.255.0 {mascara}
+
+            description PORTA DA LAN DE f0/0
+
+            exit
+        
+        interface s0/0 {porta da wan}
+
+            no shutdown
+
+            ip add 10.0.0.1 {ip de "saída"} 255.0.0.0 {mascara}
+
+            description PORTA WAN DE LIGAÇÃO s0/0 para s0/1
+
+            clock rate 250000
+
+            bandwidth 250
+
+            exit
+
+        router rip
+
+            network 192.168.0.0 (inicio de rede lan)
+            
+            network 10.0.0.0    (inicio de rede wan)
+
+            ^Z
+    
+    write
+
+    copy run star
+
