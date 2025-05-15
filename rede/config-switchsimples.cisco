@@ -1,0 +1,39 @@
+!configurar switch para criar vlan
+enable
+    configure terminal
+        hostname (nome do switch)
+
+        !criar Vlan 10
+        vlan 10 
+
+            name (nome da vlan)
+        
+            exit
+        
+        vlan 20
+
+            name (nome da vlan)
+
+            exit
+
+        !colocar as portas nas vlans
+
+        interface fastethernet range 0/1-12 [as portas do switch que deseja colocar na vlan]
+
+            switchport  access vlan 10 [vlan que deseja colocar]
+
+            exit
+
+
+        interface fastethernet range 0/13-24
+            
+            switchport access vlan 20 
+
+
+            exit
+        exit
+    show run [pra ver as portas do switch]
+
+    write
+    
+    end

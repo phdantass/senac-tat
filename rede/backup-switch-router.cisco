@@ -1,0 +1,37 @@
+!backup
+enable 
+
+    !versão
+    show version 
+
+    !versão do sistema operacional
+    show boot
+
+    !conteúdo flash
+    show flash:
+
+    !conteúdo NVRAM
+    dir nvram:
+
+    !=================================
+
+    !começando os backup do switch
+    [memoria ram para nvram]
+    copy running-config startup-config 
+
+    !memória ram para flash
+    copy running-config flash:
+
+    show flash:
+
+    !memória nvram para tstp 
+    copy startup-config tftp:
+
+    copy flash: tftp:
+
+    !memória ram para text
+    show running-config
+
+    end
+
+    

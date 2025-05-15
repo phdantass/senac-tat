@@ -1,0 +1,98 @@
+!Acessando o modo Exec Privilegiado
+enable
+
+  !Configuração de Data/Hora em inglês, você pode usar abreviado ou completo
+  clock set 14:00:00 21 November 2024
+
+  !Acessando o modo de configuração global de comandos
+  configure terminal
+
+    !Configuração do nome do switch
+    hostname sw-04
+
+    !Habilitando o serviço de criptografia de senhas do Tipo-7 Password 
+    service password-encryption
+
+    !Habilitando o serviço de marcação de Data/Hora detalhado nos Logs
+    service timestamps log datetime msec
+
+    !Habilitando o tamanho do Buffer dos Logs na Memória RAM (NÃO COMENTADO NO CENÁRIO A)
+    logging buffered 4096 
+
+    !Desativando a resolução de nomes de domínio
+    no ip domain-lookup
+
+    !Configuração do banner da mensagem do dia
+    banner motd #AVISO: acesso autorizado somente a funcionarios#
+
+    !Habilitando o uso senha do Tipo-5 Secret para acessar o modo EXEC Privilegiado
+    enable secret SUA_SENHA_SEGURA
+
+    !Criação dos usuários locais utilizando senhas do Tipo-5 ou Tipo-7 e privilégios diferenciados
+    username SEU_USUÁRIO_1 secret SUA_SENHA_SEGURA
+    username SEU_USUÁRIO_2 password SUA_SENHA_NÃO_SEGURA
+    username SEU_USUÁRIO_3 privilege 15 secret SUA_SENHA_SEGURA
+
+    !Configuração do nome de domínio FQDN (Nome de Domínio Totalmente Qualificado)
+    ip domain-name SEU_DOMÍNIO.INTRA
+
+    !Criação da chave de criptografia e habilitar o serviço de SSH Server local
+    crypto key generate rsa general-keys modulus 1024
+
+    !Habilitando a versão 2 do serviço de SSH Server
+    ip ssh version 2
+
+    !Habilitando o tempo de inatividade para novas conexões do SSH Server
+    ip ssh time-out 60
+
+    !Habilitando o número máximo de tentativas de conexões simultâneas no SSH Server
+    ip ssh authentication-retries 2
+
+    !Desativando os Serviços de Descobertas de equipamentos na rede (NÃO COMENTADO NO CENÁRIO A)
+    no cdp run
+    no lldp run
+
+    !Acessando a linha console, porta padrão de acesso Out-of-Band (Fora da Banda)
+    line console 0
+      
+      !Forçando fazer login local utilizando usuário e senha locais do switch
+      login local
+      
+      !Habilitando senha de acesso do Tipo-7 Password
+      password SUA_SENHA_NÃO_SEGURA
+      
+      !Sincronizando as mensagens de logs na tela
+      logging synchronous
+      
+      !Habilitando o tempo de inatividade de uso do console
+      exec-timeout 5 30
+      
+      !Saindo de todos os níveis e voltando para o modo EXEC Privilegiado
+      exit
+
+    !Acessando as linhas virtuais de acesso remoto do Switch
+    line vty 0 4
+
+      !Forçando fazer login local utilizando usuário e senha locais do switch
+      login local
+
+      !Habilitando senha de acesso do Tipo-7 Password
+      password SUA_SENHA_NÃO_SEGURA
+
+      !Sincronizando as mensagens de logs na tela
+      logging synchronous
+
+      !Habilitando o tempo de inatividade de uso da linha virtual
+      exec-timeout 5 30
+
+      !Configuração do tipo de protocolo de transporte de entrada
+      transport input ssh
+
+      !Saindo de todos os níveis e voltando para o modo EXEC Privilegiado
+      end
+
+  !Salvando as configurações da memória RAM para a memória NVRAM
+  !OBSERVAÇÃO IMPORTANTE: deixar uma linha em branco no final do script para
+  !fazer a função de <Enter> e salvar automaticamente as configurações na hora
+  !da execução do script no console.
+  write
