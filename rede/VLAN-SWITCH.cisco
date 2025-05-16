@@ -1,0 +1,105 @@
+!Vlan número: 0 até 4095
+
+!Vlan não pode usar: 0 - 1
+
+!Vlan criar: 1 até 1001
+
+enable
+    
+    configure terminal
+
+        Vlan 10 {número}
+
+            name FIN {nome da lan}
+
+            exit
+
+        vlan 20 
+
+            name EST
+
+            exit
+
+        vlan 30 
+
+            name FAT
+
+            exit
+
+        vlan 40
+
+            name GER
+
+            exit
+
+        vlan 50
+
+            name SERVER
+
+            exit
+
+        vlan 60
+
+            name WIFI
+
+            exit
+
+        vlan 99
+
+            name SVI
+
+            exit
+
+        end
+
+write
+
+show vlan brief
+
+
+_____________________________________________
+
+!configuração das SVI nos switches
+
+enable
+
+    configuração
+
+        interface vlan 99
+
+            description INTERFACE DE SVI
+
+            ip address 172.16.0.97 255.255.255.224
+
+            no shutdown
+
+            end
+
+    write            
+
+_______________________________________________
+
+!configuração da VLAN dos servidores
+
+enable
+
+    configure terminal 
+
+        interface range GigabitEthernet 1/0/10 - 19
+
+            description VLAN 50 DOS SERVIDORES
+            
+            switchport mode access
+
+            switchport nonegotiate 
+
+            switchport access vlan 50
+
+            end
+
+    write
+
+    copy run star
+
+    show run 
+
