@@ -103,3 +103,104 @@ enable
 
     show run 
 
+-----------------------------------------------------
+
+!configuração da VLAN rede sem fio
+
+enable
+
+    configure terminal 
+
+        interface range GigabitEthernet 1/0/20-23
+
+            description VLAN 60 DOS ACCESS POINT
+
+            switchport mode  access
+
+            switchport nonegotiate
+
+            switchport access vlan 60
+
+            end
+    
+    write / copy run star 
+
+----------------------------------------------------
+
+!configuração da VLAN rede sem fio
+enable
+
+    configure terminal
+
+        interface range GigabitEthernet 1/0/5-9, GigabitEthernet 1/0/14-19, GigabitEthernet 1/0/21-23 , GigabitEthernet 1/1/1-4
+
+            description INTERFACES DESLIGADAS 
+
+            shutdown
+        
+            end
+
+    copy run star
+    
+----------------------------------------------------
+
+!configuração do switch 2960
+enable 
+
+    configure terminal
+
+        interface range fastEthernet 0/1-4
+
+            description vlan 10 Financeiro
+
+            switchport mode access 
+
+            switchport nonegotiate
+
+            switchport access vlan 10
+
+            exit
+
+        interface range fastEthernet 0/5-9
+
+            description vlan 20 estoque
+
+            switchport mode access 
+
+            switchport nonegotiate
+
+            switchport access vlan 20
+            
+            exit
+        
+        interface range fastEthernet 0/10-14
+
+            description vlan 30 faturamento 
+
+            switchport mode access 
+
+            switchport nonegotiate
+
+            switchport access vlan 30
+
+            exit
+
+        interface range fastEthernet 0/15-20
+
+            description vlan 40 gerencia 
+        
+            switchport mode access 
+
+            switchport nonegotiate
+
+            switchport access vlan 40
+
+            exit
+
+        interface range fastEthernet 0/2-4, fastEthernet 0/6-9, fastEthernet 0/16-22 
+
+            shutdown
+
+            end
+    
+    copy run star

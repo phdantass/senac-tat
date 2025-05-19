@@ -1,0 +1,37 @@
+!configuração dos trunks (trocas) no switch 3060
+
+enable
+
+    configure terminal
+
+        interface range GigabitEthernet1/0/1-9
+
+            description interface de trunk
+
+            switchport mode trunk
+
+            switchport nonegotiate
+
+            end
+    write
+
+-------------------------------------------------------
+
+!configuração dos switchs 2960 (dois lados)
+
+enable
+
+    configure terminal
+
+        interface range GigabitEthernet 0/1-2, fastEthernet 0/23-24
+
+            description interface de trunk
+
+            switchport mode trunk
+
+            switchport nonegotiate
+
+            end
+
+    write 
+    
