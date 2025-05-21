@@ -1,0 +1,15 @@
+!Configurando a pesquisa (ajuda) do dhcp server
+
+enable 
+
+    conf t
+
+        interface vlan 10
+
+            !configurar ajuda do dhcp
+
+            ip helper-address 172.16.0.33
+
+            end
+
+    write 
