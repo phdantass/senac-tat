@@ -1,0 +1,24 @@
+!configuração de etherchannel switch 3650
+
+en 
+
+    conf t
+    
+        interface range gigabitEthernet 1/0/1 - 2
+
+            channel-group 1 mode active
+
+            exit
+
+        interface Port-channel1
+
+            switchport mode trunk
+
+            spanning-tree portfast trunk
+
+            no shutdown
+        
+        end
+
+    write
+    

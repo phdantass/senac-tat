@@ -1,0 +1,41 @@
+!configuração da rota estática do router 1941
+
+en
+
+    conf t
+
+        !rota padrão
+
+        ip router 0.0.0.0 0.0.0.0 10.0.0.2
+        
+        end
+
+    write
+
+
+!configuração do switch multilayer 3650
+
+en 
+
+    conf t 
+
+        ip route 0.0.0.0 0.0.0.0 172.16.0.30
+
+        end
+
+    write
+
+
+!configuração do router 4321
+
+en 
+
+    conf t
+
+        ip route 0.0.0.0 0.0.0.0 172.16.0.29
+
+        ip route 192.168.1.0 255.255.255.0 10.0.0.1
+
+        end 
+
+    write 
