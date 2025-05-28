@@ -1,0 +1,39 @@
+*CONFIGURAÇÃO DO SWITCH LAYER 3*
+
+!acelerar sistema
+
+enable
+
+    configure terminal
+
+        !configuração de primário (primeiro switch do sistema)
+
+        spanning-tree vlan 1 root primary {determina que essa é o principal}
+
+        !habilitar o suporte ao rapid-PVST
+
+        spanning-tree mode rapid-pvst
+        
+        end
+
+    write
+
+    copy run star
+
+
+__________________________________________________________________________________________________
+
+
+*CONFIGURAÇÃO DOS SWITCH DE BAIXO
+
+enable
+
+    conf t 
+
+        spanning-tree mode rapid-pvst  
+
+        end 
+    
+    write
+
+    

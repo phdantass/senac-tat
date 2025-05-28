@@ -1,24 +1,122 @@
-!configuração de etherchannel switch 3650
+*CONFIGURAÇÃO DO SWITCH LAYER 3*
 
-en 
+!Acessando o modo EXEC Privilegiado
+enable
 
-    conf t
-    
-        interface range gigabitEthernet 1/0/1 - 2
+  !Acessando o modo de Configuração Global de Comandos
+  configure terminal
 
-            channel-group 1 mode active
+    !Acessando o Range de Interface GigabitEthernet de Ligação com o Switch Layer 2960
+    interface range GigabitEthernet 1/0/1 - 2
 
-            exit
+      !Configurando o Grupo do Etherchannel em modo Ativo
+      channel-group 1 mode active
 
-        interface Port-channel1
+      !Saindo das Interfaces GigabitEthernet
+      exit
 
-            switchport mode trunk
+    !Configurando a Interface Virtual do Grupo 1 do Etherchannel
+    interface Port-channel 1
 
-            spanning-tree portfast trunk
+      !Configurando o Modo de Switching da Interface Etherchannel
+      switchport
 
-            no shutdown
-        
-        end
+      !Configurando o Modo Trunk da Interface Etherchannel
+      switchport mode trunk
 
-    write
-    
+      !Iniciando a Interface Etherchannel
+      no shutdown
+
+      !Saindo da Interface Etherchannel
+      exit
+
+    !Acessando o Range de Interface GigabitEthernet de Ligação com o Switch Layer 2960
+    interface range GigabitEthernet 1/0/3 - 4
+      channel-group 2 mode active
+      exit
+
+    !Configurando a Interface Virtual do Grupo 2 do Etherchannel
+    interface Port-channel 2
+      switchport
+      switchport mode trunk
+      no shutdown
+      end
+
+  !Salvando as configurações da RAM para a NVRAM
+  write
+
+__________________________________________________________________________________________________
+
+
+  *CONFIGURAÇÃO DO SWITCH 2960 LADO ESQUERDO*
+
+  !Acessando o modo EXEC Privilegiado
+enable
+
+  !Acessando o modo de Configuração Global de Comandos
+  configure terminal
+
+    !Acessando o Range de Interface GigabitEthernet de Ligação com o Switch Multilayer 3650
+    interface range GigabitEthernet 0/1 - 2
+      channel-group 1 mode passive
+      exit
+
+    !Configurando a Interface Virtual do Grupo 1 do Etherchannell
+    interface Port-channel 1
+      switchport
+      switchport mode trunk
+      no shutdown
+      exit
+
+    !Acessando o Range de Interface FastEthernet de Ligação com o Switch Layer 2960
+    interface range FastEthernet 0/23 - 24
+      channel-group 3 mode active
+      exit
+
+    !Configurando a Interface Virtual do Grupo 3 do Etherchannel
+    interface Port-channel 3
+      switchport
+      switchport mode trunk
+      no shutdown
+      end
+
+  !Salvando as configurações da RAM para a NVRAM
+  write
+
+  __________________________________________________________________________________________________
+
+
+  #CONFIGURANDO O SWITCH 2960 LADO DIREITO
+
+  !Acessando o modo EXEC Privilegiado
+enable
+
+  !Acessando o modo de Configuração Global de Comandos
+  configure terminal
+
+    !Acessando o Range de Interface GigabitEthernet de Ligação com o Switch Multilayer 3650
+    interface range GigabitEthernet 0/1 - 2
+      channel-group 2 mode passive
+      exit
+
+    !Configurando a Interface Virtual do Grupo 2 do Etherchannell
+    interface Port-channel 2
+      switchport
+      switchport mode trunk
+      no shutdown
+      exit
+
+    !Acessando o Range de Interface FastEthernet de Ligação com o Switch Layer 2960
+    interface range FastEthernet 0/23 - 24
+      channel-group 3 mode passive
+      exit
+
+    !Configurando a Interface Virtual do Grupo 3 do Etherchannel
+    interface Port-channel 3
+      switchport
+      switchport mode trunkk
+      no shutdown
+      end
+
+  !Salvando as configurações da RAM para a NVRAM
+  write
